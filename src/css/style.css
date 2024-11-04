@@ -1,0 +1,117 @@
+/* селектор {
+ свойство: значение;
+ cвойство: значение;
+ cвойство: значение;
+} */
+
+*{
+    box-sizing: border-box;
+}
+
+p em {
+    color: #F08080;
+}
+
+h1, h2, h3 {
+text-align: center;
+}
+
+.first {
+   margin-top: 50px;
+   color: blue ; 
+   font-size: 16px;
+   font-weight: 300;
+   font-style: italic;
+   text-decoration: line-through;
+   text-transform: uppercase;
+}
+
+#second {
+    color: aqua;
+}
+
+.marked {
+    color: yellow;
+}
+
+h1, h4, h5 {
+    text-align: center; /* це ми пишемо розміщення тексту  */
+    color: #b60a0a;
+    font-size: 20px;
+}
+
+h2, h3 {
+    text-transform: uppercase;
+    text-decoration-line: none;
+    font-size: larger;
+}
+
+.box { 
+    display: inline-block;
+    width: 300px;
+    min-height: 300px;
+    background-color: #d71919;
+   /*  border-color: blue;
+    border: width 5px;
+    border-style: solid; */
+    border: 5px solid black;
+    border-top-color: blue;
+    padding: 50px 20px 50px 20px;
+    margin: 20px;
+}
+
+.pictureprince {
+    display: block;
+    width: 400px;
+    margin: 50px auto 0 auto;
+}
+
+.cover {
+    display: block;
+    width: 300px;
+    margin: 50px auto 0 auto;
+    
+}
+
+.covertwo {
+    display:block;
+    width: 400px;
+    margin: 50px auto 0 auto;
+}
+
+.coverthee {
+    display: block;
+    width: 400px;
+    margin: 50px auto 0 auto;
+
+}
+
+.coverfour {
+    display: block;
+    width: 400px;
+    margin:50px auto 0 auto ;
+}
+
+.coverfive {
+    display: block;
+    width: 250px;
+    margin: 50px auto 0 auto ;
+}
+
+.coversix {
+    display: block;
+    width: 250px;
+    margin: 50px auto 0 auto ;
+}
+
+.coverseven {
+    display: block;
+    width: 250px;
+    margin: 50px auto 0 auto ;
+}
+
+.covereight {
+    display: block;
+    width: 250px;
+    margin: 0px auto 0 auto;
+}
